@@ -8,14 +8,14 @@
     enableDefaultPackages = false;
 
     packages = with pkgs; [
-      iosevka
       noto-fonts
+      dejavu_fonts
       liberation_ttf
       twemoji-color-font
       noto-fonts-cjk-sans
       noto-fonts-cjk-serif
+      nerd-fonts.iosevka
       nerd-fonts.symbols-only
-      dejavu_fonts
     ];
 
     fontconfig = {
